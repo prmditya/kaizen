@@ -67,18 +67,19 @@
 
 @layer components {
   .neu {
-    @apply bg-white 
+    @apply !bg-white 
           !ring-0
           !outline-none
-          border-2 
-          !rounded-[8px]
-          border-black 
-          shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] 
-          hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] 
-          hover:translate-x-[2px]
-          hover:translate-y-[2px]
-          transition-all 
-          duration-200;
+          !border-[3px] 
+          !rounded-[15px]
+          !border-black 
+          !text-black
+          !shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] 
+          hover:!shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] 
+          hover:!translate-x-[2px]
+          hover:!translate-y-[2px]
+          !transition-all 
+          !duration-200;
   }
 
   .paddings {
@@ -94,9 +95,16 @@
   /* For buttons with active state */
   .neu-button {
     @apply neu
+          !text-[20px]
           active:translate-y-1 
           active:translate-x-1 
           active:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)];
+  }
+
+  .add-notes-button {
+    @apply absolute 
+          right-[20px] 
+          bottom-[20px] 
   }
 
   .neu-input{
