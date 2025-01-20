@@ -12,15 +12,15 @@ interface VerticalProgressBarProps {
 const VerticalProgressBar: React.FC<VerticalProgressBarProps> = ({
   progress,
   width = "10px",
-  backgroundColor = "#e5e7eb", // Light gray
-  fillColor = "#3b82f6",       // Blue
+  backgroundColor = "#e5e7eb", 
+  fillColor = "#3b82f6",       
 }) => {
   const clampedProgress = Math.min(Math.max(progress, 0), 100); // Clamp progress between 0 and 100
 
   return (
     <div
       style={{
-        height: "auto", // Full height of the parent container
+        height: "auto",
         width,
         backgroundColor,
         borderRadius: "10px",

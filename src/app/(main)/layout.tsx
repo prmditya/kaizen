@@ -1,8 +1,8 @@
 import React from "react";
 
 export const metadata = {
-  title: "Dashboard",
-  description: "Dashboard page",
+  title: "Kaizen - Dashboard",
+  description: "Kaizen Dashboard page",
 };
 
 export default function DashboardLayout({
@@ -11,8 +11,8 @@ export default function DashboardLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
-    {children}
-    </>
+    <div className="container">
+      {children}
+    </div>
   );
 }

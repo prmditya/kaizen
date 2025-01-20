@@ -1,0 +1,7 @@
+# General rule: Allow all crawlers
+User-agent: *
+Disallow:
+
+# Block the API routes and internal assets
+Disallow: /api/
+Disallow: /_next/
