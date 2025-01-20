@@ -71,7 +71,7 @@
           !ring-0
           !outline-none
           !border-[3px] 
-          !rounded-[15px]
+          !rounded-[10px]
           !border-black 
           !text-black
           !shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] 
@@ -108,8 +108,11 @@
   }
 
   .neu-input{
-    @apply neu
+    @apply 
           w-full
+          h-full
+          !ring-0
+          !outline-none
   }
 
   .neu-avatar{

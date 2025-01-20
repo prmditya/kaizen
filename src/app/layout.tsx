@@ -9,6 +9,9 @@ const myFont = localFont({
 
 export const metadata: Metadata = {
   title: "Kaizen",
+  icons: {
+    icon: '/icons/favicon.ico',
+  }
 };
 
 export default function DashboardLayout({
@@ -19,9 +22,7 @@ export default function DashboardLayout({
   return (
     <html lang="en">
       <body>
-        <div className='container'>
-          <main>{children}</main>
-        </div>
+        <main>{children}</main>
       </body>
     </html>
   );
