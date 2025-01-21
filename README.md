@@ -1,4 +1,8 @@
-# Kaizen Documentation
+<div align="center">
+<img src="https://github.com/user-attachments/assets/b16a4922-5fbf-4a97-b7ad-b5b193226519" width=600 align=center/>
+</div>
+
+![Screenshot 2025-01-21 133245](https://github.com/user-attachments/assets/01f1e848-7be9-4ee0-9fb9-b888309ae724)
 
 ## Overview
 Kaizen is my personal project, a journaling and habit tracker website designed to help users improve their daily routines and personal development by incorporating features like habit tracking, daily journaling, and progress analytics. Built with **Next.js**, **Supabase**, and deployed on **Vercel**, Kaizen focuses on performance, scalability, and user-friendly design.
