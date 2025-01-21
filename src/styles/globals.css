@@ -67,7 +67,7 @@
 
 @layer components {
   .neu {
-    @apply !bg-white 
+    @apply bg-white 
           !ring-0
           !outline-none
           !border-[3px] 

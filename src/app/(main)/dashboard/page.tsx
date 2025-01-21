@@ -11,7 +11,7 @@ export default function Dashboard() {
      <Quotes />
      <Statistic />
      <RecentHistory />
-     <Button className='neu-button w-[4rem] h-[4rem] add-notes-button items-center !text-[54px]'>+</Button>
+     <Button className='neu-button w-[4rem] h-[4rem] add-notes-button items-center !text-[54px] !bg-white'>+</Button>
     </>
   );
 }

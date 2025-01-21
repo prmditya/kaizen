@@ -14,10 +14,7 @@ export default function DashboardLayout({
 }) {
   return (
     <>
-      <main>{children}</main>
-      <footer>
-        <p>&copy; 2025</p>
-      </footer>
+      <main className="px-[30px] md:px-[300px] text-left h-screen py-[100px]">{children}</main>
     </>
   );
 }
