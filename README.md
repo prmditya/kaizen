@@ -1,9 +1,10 @@
 <div align="center">
 <img src="https://github.com/user-attachments/assets/b16a4922-5fbf-4a97-b7ad-b5b193226519" width=600 align=center/>
-</div>
-
+   
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Contributors](https://img.shields.io/github/contributors/prmditya/kaizen)
+
+</div>
 
 ![Screenshot 2025-01-21 133245](https://github.com/user-attachments/assets/01f1e848-7be9-4ee0-9fb9-b888309ae724)
 
